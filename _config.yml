@@ -16,8 +16,8 @@
 title: The Long Way Around 
 email: wrp314@gmail.com 
 description: "Experiments in electronics, computers, mechanical and anything of interest."
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://wes314.github.io"
+baseurl: "/the-long-way-around"
 github_username: wes314 
 theme: minima
 author:
