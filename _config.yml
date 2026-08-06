@@ -17,7 +17,7 @@ title: The Long Way Around
 email: wrp314@gmail.com 
 description: "Experiments in electronics, computers, mechanical and anything of interest."
 url: "https://wes314.github.io"
-baseurl: "/the-long-way-around"
+baseurl: ""
 github_username: wes314 
 theme: minima
 author:
@@ -26,6 +26,11 @@ author:
 markdown: kramdown
 plugins:
   - jekyll-feed
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
