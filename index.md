@@ -9,12 +9,12 @@ An archive of projects, restorations and experiments
 
 {% for project in site.pages %}
 {% if project.path contains "projects/" and project.name == "index.md" and project.path != "projects/index.md" %}
-- [{{ project.title }}]({{ project.url }})
+- [{{ project.title }}]({{ project.url | relative_url }})
 {% endif %}
 {% endfor %}
 
 ## Latest Posts 
 
 {% for post in site.posts limit:5 %}
-- {{ post.date | date: "%Y-%m-%d" }} — [{{ post.title }}]({{ post.url }})
+- {{ post.date | date: "%Y-%m-%d" }} — [{{ post.title }}]({{ post.url | relative_url }})
 {% endfor %}
