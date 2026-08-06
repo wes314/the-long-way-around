@@ -72,7 +72,7 @@ Well this is where it gets interesting. This is a clone board and after trying t
 
 ![](images/20260806150134.png)
 
-So I tried the first 2K of a Apple IIe character ROM (these are 4K images). This was the result, a bit more encouraging. 
+The Apple IIe character ROM is 4 KB, while the original Apple II character ROM is only 2 KB. Testing only the first half produced partially correct characters, as shown below. This was more encouraging, suggesting that the ROM addressing was more than likely correct and that the scrambled characters were due to the bit ordering within the data byte.
 
 ![](images/20260806150311.png)
 
@@ -82,6 +82,19 @@ This is when I began to suspect the differences in the clone board. The way the 
 - [Corrected Apple II Clone Character ROM](downloads/appleii-clone-character-rom.bin)
 - [ROM conversion script](downloads/conv.py)
 - [ROM display script](downloads/disp.py)
+
+The table below shows the mapping from original to clone ROM byte format.
+
+| Original ROM bit | Clone ROM bit |
+| ---------------- | ------------- |
+| D0               | D0            |
+| D1               | D6            |
+| D2               | D5            |
+| D3               | D4            |
+| D4               | D3            |
+| D5               | D1            |
+| D6               | D7            |
+| D7               | (discarded)   |
 
 I think one bit of the original ROM was also used to flag inversion but on mine it does not, it appears to be unused/NC (D0). There may be more work to do on this ROM but for now it seems to work OK, I might revisit it later. I created the display script to attempt to decode the corrected ROM as I got sick of erasing and burning ROMs!
 
