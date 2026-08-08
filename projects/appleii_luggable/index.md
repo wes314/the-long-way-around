@@ -114,10 +114,10 @@ Lucky I did, as it turns out one of them is for the luggable computer!!
 
 I don't think the seller knew what it was for, to them it just appeared to be too far gone, and trash to be disposed of (deceased estate).
 
-![[kb_clean.png]]
+![](images/kb_clean.png)
 
 I can see his point of view, especially if it was not part of this computer. But with a quick scrub -- and I had not removed the keycaps to clean them -- it came up OK, good enough for now, good enough to work on it without wondering what is soaking into my skin! :)
 
-![[kb_dirty.png]]
+![](images/kb_dirty.png)
 
 TO BE CONTINUED
