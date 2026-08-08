@@ -104,6 +104,20 @@ Great success! Now I am going to need a keyboard. Note the lower case "apple". I
 
 # The Keyboard
 
+I was lucky to get the keyboard with the computer.
 
+When I was leaving after picking up the luggable computer there was a rubbish pile out front ready for the garbage truck. Having found numerous treasures in such piles over the years I knew it was definitely worth a look.
+
+Among a slew of 3 old computers (which turned out to be 1995-2000 era Pentium 166 / 266) there were two keyboards, left for dead in the trash. I decided to take them home to assess them.
+
+Lucky I did, as it turns out one of them is for the luggable computer!!
+
+I don't think the seller knew what it was for, to them it just appeared to be too far gone, and trash to be disposed of (deceased estate).
+
+![[kb_clean.png]]
+
+I can see his point of view, especially if it was not part of this computer. But with a quick scrub -- and I had not removed the keycaps to clean them -- it came up OK, good enough for now, good enough to work on it without wondering what is soaking into my skin! :)
+
+![[kb_dirty.png]]
 
 TO BE CONTINUED
