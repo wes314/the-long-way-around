@@ -95,8 +95,9 @@ Here is a copy of my gw_charge_managed.py script, including the evolution/commen
 
 ![](images/ha2.png)
 
+Below shows the grid export power graph once there is excess capacity to cover all loads.
 
-
+![](images/ha3.png)
 
 # Beyond charging: Using the forklift battery as a house battery
 
